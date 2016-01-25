@@ -21,7 +21,7 @@ FREETDS_VERSION_INFO = Hash.new { |h,k|
   "0.82" => {:files => "ftp://ftp.freetds.org/pub/freetds/old/0.82/freetds-0.82.tar.gz"},
   "0.91" => {:files => "ftp://ftp.freetds.org/pub/freetds/stable/freetds-0.91.112.tar.gz"},
   "0.92" => {:files => "ftp://ftp.freetds.org/pub/freetds/stable/freetds-0.92.405.tar.gz"},
-  "0.95" => {:files => "http://qa.ncsasports.org/Branch-0_95.zip"},
+  "0.95" => {:files => "http://qa.ncsasports.org/freetds-Branch-0_95.tar.gz"},
   "current" => {:files => "ftp://ftp.freetds.org/pub/freetds/current/freetds-current.tar.gz"}
 })
 FREETDS_SOURCE_URI = FREETDS_VERSION_INFO[FREETDS_VERSION][:files]
